@@ -615,7 +615,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-01-06T12:00:54.553Z",
+  "updatedAt": "2022-01-10T06:38:30.741Z",
   "devdoc": {
     "author": "Lodgerio Padlan",
     "details": "Ownable will be the same for all the contract we made   using \"internal\" keyword      ",
