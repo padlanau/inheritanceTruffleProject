@@ -1,4 +1,5 @@
-# inheritanceTruffleProject - A simply smart contract to demonstrate Inheritance
+# inheritanceTruffleProject 
+## A simply smart contract to demonstrate Inheritance
 
 Instructions :
 > - make sure that the user can not withdraw more than their balance
