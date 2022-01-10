@@ -11,3 +11,45 @@ Instructions :
    - address 2 deposited 3 ether.. getBalance() will give us 2 ether balance for address 2.
    - but the deployed contract will have 3 ether. 
    - because we are only tracking the balance internally using "balance" mapping.	
+
+- migrate
+      PS D:\blockchain\inheritanceTruffleProject> truffle console
+      truffle(development)> migrate --reset
+
+      Compiling your contracts...
+      ===========================
+      > Compiling .\contracts\Bank.sol
+      > Compiling .\contracts\Destroyable.sol
+      > Compiling .\contracts\Migrations.sol
+      > Compiling .\contracts\Ownable.sol
+      > Artifacts written to D:\blockchain\inheritanceTruffleProject\build\contracts
+      > Compiled successfully using:
+         - solc: 0.8.10+commit.fc410830.Emscripten.clang
+
+
+
+      Starting migrations...
+      ======================
+      > Network name:    'development'
+      > Network id:      5777
+      > Block gas limit: 6721975 (0x6691b7)
+
+
+      1_initial_migration.js
+      ======================
+
+         Deploying 'Migrations'
+         ----------------------
+         > transaction hash:    0x45e7bf853dd31f40da9dab87d1e0c2feb2594f891abd351b0e6af2395a273563
+         > Blocks: 0            Seconds: 0
+
+      Summary
+      =======
+      > Total deployments:   1
+      > Final cost:          0.00497708 ETH
+
+
+      - Blocks: 0            Seconds: 0
+      - Saving migration to chain.
+
+      truffle(development)>
